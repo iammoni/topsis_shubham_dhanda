@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="topsis-python-souravdlboy",
-    version="2.0",
-    author="sourav kumar",
-    author_email="sauravkumarsct@gmail.com",
+    name="topsis_shubham_dhanda",
+    version="0.1.1",
+    author="Shubham Dhanda",
+    author_email="sdhandahr08@gmail.com",
     description="Python package for TOPSIS algorithm",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/souravs17031999/topsis-python",
+    url="https://github.com/iammoni/topsis_shubham_dhanda",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
