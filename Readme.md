@@ -18,3 +18,8 @@ print("You should Choose item at:"+str(s.choose()))
 
 Link:
 https://pypi.org/project/topsis-shubham-dhanda/0.1.1/
+
+
+error:
+if two or more items have same points
+
