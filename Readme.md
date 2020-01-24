@@ -10,10 +10,10 @@ import pandas as pd
 '-' -----you want to minimize it
 '+' ---- you want to maximize it
 
-#you have to define index column
-df=pd.read_csv('topsis.csv', index_col="")
-s=topsis(df,[.25,.25,.25,.25],['-','+','+','+'])
-print("You should Choose item at:"+str(s.choose()))
+#you have to define index column         
+df=pd.read_csv('topsis.csv', index_col="")     
+s=topsis(df,[.25,.25,.25,.25],['-','+','+','+'])         
+print("You should Choose item at:"+str(s.choose()))           
 
 
 Link:
