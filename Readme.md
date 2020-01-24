@@ -14,3 +14,7 @@ import pandas as pd
 df=pd.read_csv('topsis.csv', index_col="")
 s=topsis(df,[.25,.25,.25,.25],['-','+','+','+'])
 print("You should Choose item at:"+str(s.choose()))
+
+
+Link:
+https://pypi.org/project/topsis-shubham-dhanda/0.1.1/
